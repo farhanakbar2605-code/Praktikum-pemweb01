@@ -1,0 +1,74 @@
+/* Gaya teks dan gambar */
+h2 {
+    color: #1a1a75;
+}
+
+/* Header */
+.header {
+    background-color: rgba(7, 7, 134, 0.5);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+}
+.footer {
+    background-color: rgba(7, 7, 134, 0.85);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px ;
+    text-align: center;    
+}
+
+/* Card utama */
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Gaya teks dan gambar */
+
+.gambar {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.body {
+    background-image: url('Batal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vh;
+    border-radius: 10px;
+    backround-attachment: scroll;
+}
+.data_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+        border: 1px solid;
+    border-color: blueviolet; 
+}
+
+.table_title{
+    text-align: center;
+    margin: 40px auto;
+    border: 1px solid;
+    border-color: blueviolet;
+    color: white;
+    background-color: blueviolet;
+}
+.table {
+    border: 1px solid;
+    border-color: blueviolet;   
+}

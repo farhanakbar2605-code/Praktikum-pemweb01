@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                     
+    <div class="body">
+    <header>
+    <div class="header">
+                <h1>Mahasiswa Sistem Informasi</h1>
+        <p>Jago IT 💻 • Suka Koding • Berkarakter 🌱</p>
+    </div>
+    </header>
+    <main>
+        <div class="card">
+            <h2>📸 HTML Images</h2>
+            <p>Tag <code>&lt;img&gt;</code> digunakan untuk menampilkan gambar + dijadikan tautan. Contohnya:</p>
+            <a href=https://www.w3schools.com/html/ target="_blank">
+                <img src="Laptop.jpeg" alt="foto ngoding" class="gambar">
+            </a>
+
+            <p><b>Contoh gambar animasi (GIF):</b></p>
+            <img src="Goyang.gif" alt="GIF lucu" class="gambar">
+            <p>dan berikut penerapan <b>&lt;picture&gt;</b>element:</p>
+            <picture class="gambar">
+                <source media="(min-width: 650px)" srcset="pou_smile_face.jpg">
+                <source media="(min-width: 465px)" srcset="smile_roblox.jpg">
+                <img src="Kucingmalas.jpeg" style="width: 100%;">
+            </picture>
+
+        </div>
+        <div class="card">
+            <h2>Image Map</h2>
+            <p>
+                Kita bisa membuat gambar yang bisa di klik:
+                <img src="Putih.jpeg" alt="subcribe" usemap="#subs" class="gambar">
+                <map name="subs">
+                <area shape="rect" coords="66,198,670,352" href="https://www.w3schools.com/css/" alt="😜">
+                </map>
+
+<p>➡️ Coba klik bagian mulutnya!</p>
+
+                    
+            </p>
+        </div>
+        <div class="card">
+            <h2>📊 HTML Tables</h2>
+            <p>Table buat baris dan kolom</p>
+        <table class="data_table"
+            <tr>
+                <th colspan="3" class="table_title"><b>data mahasiswa si</b></th>                           
+            </tr>
+            <tr>
+                <th><b>nama</b></th>
+                <th><b>nim</b></th>
+                <th><b>minat</b></th>
+            </tr>
+            <tr>
+                <th>bang luqman</th>
+                <th>78654699</th>
+                <th>main game</th>
+            </tr>
+            <tr>
+                <th>akang jordi</th>
+                <th>73778999</th>
+                <th>bulu tangkis</th>
+            </tr>
+            <tr>
+                <th colspan="3"><b>jumlah mahasiswa aktif: 2</b></th>
+                  </tr>
+        </table>
+            
+        </div>
+        <div class="card">
+            <h2>📁HTML list</h2>
+            <h3>Unordered list (daftar tanpa urutan):</h3>
+            <ul>
+            <li>Analisis Sistem</li>
+            <li>Desain Database</li>
+            <li>Pemrograman Web</li>
+        </ul>
+
+        <h3>Ordered List (daftar berurutan):</h3>
+        <ol>
+            <li>Belajar HTML</li>
+            <li>Belajar CSS</li>
+            <li>Belajar JavaScript</li>
+        </ol>
+
+        <h3>Description List:</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Bahasa untuk membuat struktur web.</dd>
+
+            <dt>CSS</dt>
+            <dd>Bahasa untuk memperindah tampilan web.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Bahasa untuk membuat web menjadi interaktif.</dd>
+        </dl> 
+        </div>
+        
+    </main>
+        <footer>
+            <div class="footer">
+                <p>&copy;2025 - sukailah hidup ini</p>
+            </div>
+        </footer>
+    </div>
+    
+        
+</body>
+</html>
