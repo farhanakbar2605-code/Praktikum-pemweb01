@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cv sederhana - mahasiswa baru</title>
+    <style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      color: #0f172a;
+  }
+
+  header {
+      background-color: #2563eb;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+
+  nav a:hover {
+      text-decoration: underline;
+  }
+
+  /* Layout menggunakan float */
+  main {
+      margin: 20px;
+      overflow: auto;
+  }
+
+  section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+
+  #konten {
+      float: left;
+      width: 65%;
+  }
+
+  #sidebar {
+      float: right;
+      width: 30%;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+  }
+
+  footer {
+      clear: both;
+      background: #0f172a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  h2 {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 4px;
+  }
+
+  .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      border-radius: 8px;
+      padding: 3px 8px;
+      font-size: 12px;
+      margin-right: 5px;
+  }
+
+  .frame {
+      width: 100%;
+      height: 200px;
+      border: 0;
+      border-radius: 6px;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <h1>Curicculum Vitae</h1>
+  <p>Farhan Akbar - Mahasiswa Baru</p>
+  <nav>
+    <a href="#Profil">Profil</a>
+    <a href="#Pendidikan">Pendidikan</a>
+    <a href="Kemampuan">Kemampuan</a>
+    <a href="#Kontak">Kontak</a>
+  </nav>
+  </header>
+  
+  <main>
+    <div id="Konten">
+      <section id="Profil">
+        <h2>Profil</h2>
+        <p>Halo teman-teman saya! 
+        <strong>Farhan Akbar</strong>,Mahasiswa baru yang tertarik pada <em>Web Development</em>.Saya sedang belajar mengenai apa itu HTML,CSS,dan Framework Laravel.
+        </p>
+      </section>
+      
+      <section id="Pendidikan">
+        <h2>Pendidikan</h2>
+        <p>SDN Siliwangi 03 <strong>, Sukaraja,
+        kab.bogor,2010-2016.</strong>
+        </p>
+        <p>SMP Negeri 18 <strong>,Kota bogor,2017-2019.</strong>
+        </p>
+        <p>SMA Negeri 1 <strong>, Sukaraja,kab. Bogor,2020-2023.</strong>
+        </p>
+      </section>
+      
+      <section id="Kemampuan">
+        <h2>Kemampuan</h2>
+        <p>
+          <span class="tag">
+           Eat
+          </span>
+          <span class="tag">
+            Sleep
+          </span>
+          <span class="tag">
+            Water
+          </span>
+        </p>
+      </section>
+      
+      <section id="Kontak">
+        <h2>Kontak</h2>
+        <p>
+          Email:<a href="mailto:Guling_guling@gmail.com">Guling_guling@gmail.com</a>
+        </p>
+        <p>
+          Pratinjau portofolio: 
+        </p>
+        <iframe class="frame" src="https://www.wikipedia.org/" title="contoh iframe".></iframe>
+      </section>
+    </div>
+    
+    <div id="sidebar">
+      <h2>Tentang saya</h2>
+      <p>
+        Saya mudah bergaul dan tidak sombong
+      </p>
+      <h3>Hobi</h3>
+      <ul>
+        <li>Joging</li>
+        <li>Berenang</li>
+      </ul>
+      <h3>Bahasa</h3>
+      <ol>
+        <li>Indonesia</li>
+        <li>Sunda</li>
+      </ol>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2025 Farhan Akbar - Cv ini dibikin dengan HTML,CSS Internal,& Layout float.
+  </footer>
+</body>
+</html>
